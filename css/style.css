@@ -33,6 +33,8 @@ a {
 
 img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Hero Section  */
@@ -103,4 +105,62 @@ img {
 .content p {
   text-transform: capitalize;
   margin: 20px 0 30px;
+}
+
+/* About */
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about .flex-items {
+  text-align: center;
+}
+
+.icons i {
+  color: var(--white);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.icons h3 {
+  text-transform: capitalize;
+}
+
+.icons h3 {
+  margin-bottom: 15px;
+}
+
+/* Solutions Section */
+
+.section-header h4,
+.section-header h2 {
+  text-transform: capitalize;
+}
+
+.section-header h4 {
+  margin-bottom: 15px;
+}
+
+.section-header h2 {
+  font-size: 40px;
+}
+
+.section-header p {
+  margin: 20px 0;
+}
+
+/* Cases */
+.cases {
+  padding: 50px 20px;
+}
+
+.cases .container {
+  padding: 0;
+}
+
+.cases .inner-flex {
+  padding: 10px;
 }

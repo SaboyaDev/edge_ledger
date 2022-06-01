@@ -32,9 +32,22 @@
   font-size: 23px;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 /* Margins */
 .marg-y-20 {
   margin: 20px 0;
+}
+
+/* Padding */
+.pad-20 {
+  padding: 20px;
+}
+
+.pad-30 {
+  padding: 30px;
 }
 
 .px-3 {
@@ -50,16 +63,29 @@
   position: relative;
 }
 
+/* buttons */
 .btn {
   cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
   border: none;
   border-radius: 5px;
+  text-transform: capitalize;
 }
 
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--white);
+}
+
+/* Backgrounds */
 .bg-primary {
   background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.bg-black {
+  background-color: var(--black);
   color: var(--white);
 }
 
@@ -71,4 +97,57 @@
 .bg-light {
   background-color: var(--light-gray);
   color: var(--gray);
+}
+
+/* Flex Column*/
+.flex-columns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.column .img-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.inner-flex {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .flex-items {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-columns {
+    flex-wrap: nowrap;
+  }
+
+  /* Flex Column*/
+  .blog.flex-columns {
+    flex-direction: row-reverse;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row .img-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+  }
 }

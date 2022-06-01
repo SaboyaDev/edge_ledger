@@ -1,4 +1,4 @@
-/* @media screen and (min-width: 734px) {
+@media screen and (min-width: 768px) {
   .navbar .container {
     display: flex;
     align-items: center;
@@ -22,4 +22,21 @@
   .navbar li:last-child a {
     margin-right: 0;
   }
-} */
+
+  #about {
+    padding: 200px 30px;
+  }
+
+  #about .flex-items {
+    justify-content: space-around;
+  }
+
+  #about .flex-items > div {
+    padding: 40px;
+  }
+
+  /* Caseas */
+  .cases {
+    padding: 180px 30px;
+  }
+}
