@@ -108,13 +108,13 @@ img {
 }
 
 /* About */
-#about {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 #about .flex-items {
   text-align: center;
+}
+
+.solutions .section-header,
+.blog .section-header {
+  text-align: left;
 }
 
 .icons i {
@@ -133,34 +133,58 @@ img {
   margin-bottom: 15px;
 }
 
-/* Solutions Section */
-
-.section-header h4,
-.section-header h2 {
-  text-transform: capitalize;
-}
-
-.section-header h4 {
-  margin-bottom: 15px;
-}
-
-.section-header h2 {
-  font-size: 40px;
-}
-
-.section-header p {
-  margin: 20px 0;
-}
-
 /* Cases */
-.cases {
-  padding: 50px 20px;
-}
-
 .cases .container {
   padding: 0;
 }
 
 .cases .inner-flex {
   padding: 10px;
+}
+
+/* Team */
+.team .flex-items > * {
+  height: 100%;
+}
+
+.team img {
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact .section-header {
+  text-align: left;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact input {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: none;
+}
+
+.contact #submit {
+  width: 10em;
+}
+/* Footer */
+footer {
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+footer p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+footer .social > * {
+  margin: 0 20px;
 }

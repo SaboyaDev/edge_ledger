@@ -28,7 +28,7 @@
     <title>Welcome To EdgeLedger</title>
   </head>
   <body>
-    <header class="hero text-light">
+    <header id="home" class="hero text-light">
       <div id="navbar" class="navbar">
         <div class="container">
           <h1 class="logo">
@@ -56,7 +56,7 @@
     </header>
     <main>
       <!-- About: Icons -->
-      <section id="about" class="icons bg-light pad-30">
+      <section id="about" class="icons bg-light section-padding">
         <div class="container">
           <div class="flex-items">
             <!-- Investment Banking -->
@@ -117,7 +117,7 @@
         </div>
       </section>
       <!-- Cases -->
-      <section id="cases" class="cases flex-grid txt-center">
+      <section id="cases" class="cases flex-grid txt-center section-padding">
         <div class="container">
           <header class="section-header">
             <h4>this is what we do</h4>
@@ -187,6 +187,102 @@
           </div>
         </div>
       </section>
+
+      <!-- Team -->
+      <section id="team" class="team section-padding">
+        <div class="container">
+          <header class="section-header">
+            <h4>who we are</h4>
+            <h2>our professional team</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+              dolore!
+            </p>
+          </header>
+          <div class="flex-items">
+            <div class="pad-20">
+              <img src="./images/team/person1.jpg" alt="president" />
+              <h4>john doe</h4>
+              <p>president</p>
+            </div>
+            <div class="pad-20">
+              <img src="./images/team/person2.jpg" alt="vice president" />
+              <h4>john doe</h4>
+              <p>president</p>
+            </div>
+            <div class="pad-20">
+              <img src="./images/team/person3.jpg" alt="marketing head" />
+              <h4>john doe</h4>
+              <p>president</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Form -->
+      <section id="contact" class="contact flex-columns">
+        <div class="column">
+          <div class="img-container">
+            <img src="./images/home/contact.jpg" alt="contact-form" />
+          </div>
+        </div>
+        <div class="column section-header bg-light">
+          <div class="txt-container pad-30">
+            <h2>request callback</h2>
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="name"></label>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="form-control">
+                <label for="email"></label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="form-control">
+                <label for="phone"></label>
+                <input
+                  id="phone"
+                  type="text"
+                  name="phone"
+                  placeholder="Enter Phone"
+                />
+              </div>
+              <input
+                id="submit"
+                class="btn bg-primary"
+                type="submit"
+                value="Send"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="bg-black px-3">
+      <div class="social">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+        <i class="fa-brands fa-youtube fa-2x"></i>
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+      </div>
+      <p>
+        copywriter &copy;
+        <span
+          ><script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script></span
+        >
+        - EdgeLedger
+      </p>
+    </footer>
   </body>
 </html>
