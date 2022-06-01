@@ -1,0 +1,25 @@
+/* @media screen and (min-width: 734px) {
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar .logo {
+    margin: 0;
+  }
+
+  .navbar ul {
+    margin: 0;
+  }
+
+  .navbar a {
+    padding: 0 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .navbar li:last-child a {
+    margin-right: 0;
+  }
+} */
